@@ -1,0 +1,103 @@
+*{
+  
+}
+body{
+    background:#ecf0f3;
+    font-family: 'Quicksand', sans-serif;
+}
+.login-div {
+  width: 400px;
+  height: 580px;
+  border-radius:4%;
+  background: #ecf0f3;
+  padding: 60px 35px 35px 35px;
+  box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #ffffff;
+  margin: 0 auto;
+  margin-top:10%;
+}
+.logo {
+  background-image: url("./assets/psthejohn.png");
+  background-size:cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 
+    /*logo shadow */2px 2px 12px #a19d9d,
+    /*offset */0px 0px 0px 5px #ecf0f3, 
+    /*bottom right*/ 8px 8px 15px #a7aaaf,
+     /*top left*/  -8px -8px 15px #ffffff;      
+}
+.logo:hover{
+    cursor: pointer;
+}
+.title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+}
+.sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  letter-spacing: 3px;
+}
+.fields {
+  width: 85%;
+  margin:0 auto;
+  padding: 75px 5px 5px 5px;
+}
+.fields input {
+  border: none;
+  outline: none;
+  background: none;
+  width:93%;
+  font-size: 18px;
+  color: #555;
+  padding: 20px 10px 20px 10px;
+  font-family: 'Quicksand', sans-serif;
+
+}
+.username,
+.password {
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
+}
+.fields svg {
+  height: 22px;
+  margin: 0 10px -3px 25px;
+}
+.signin-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-left: 25%;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #05b8ee;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+}
+.signin-button:hover {
+  background: #0585cf;
+}
+.signin-button:active {
+  background: #23cfdf;
+}
+.link {
+  padding-top: 20px;
+  text-align: center;
+}
+.link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+}
